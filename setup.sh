@@ -8,7 +8,7 @@ mkdir third_party
 cd third_party
 git clone https://github.com/open-mmlab/mmpose.git
 cd mmpose
-git checkout cc87e7ec
+git checkout dd3c49418730e2d3651ff62fe04fb4319168c7c1
 pip install -r requirements/build.txt
 python setup.py develop
 
